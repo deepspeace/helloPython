@@ -1,0 +1,39 @@
+echo "# Atom-Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/deepspeace/Atom-Test.git
+git push -u origin master
+
+
+9abee185eeb4c6daa033a0ae7733eafc0ac5835e   
+
+$git init .   <<---git 초기 생성
+
+$git config --global user.email "you@example.com"
+
+$git config --global user.name "Your Name"
+
+$git commit -m "Message 1"
+
+>git config user .name deepspeace
+>git config user .email deepspeace@naver.com
+>git remote add origin https://github.com/deepspeace/Atom-Test.git
+>git remote -v
+
+
+
+
+>git add index.html
+>git commit -m "index.html first commit"
+On branch master
+nothing to commit,working tree clean
+
+> git push -u origin master
+
+git 종료
+$exit
+
+
+
+
